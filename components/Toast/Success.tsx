@@ -14,8 +14,8 @@ export const Success = ({ message, options }: ISuccess) => {
         className={clsx(
           'flex rounded-lg bg-gray-900 py-2.5 px-3 shadow-lg ring-1 ring-black ring-opacity-5',
           {
-            'animate-in slide-in-from-top': t.visible,
-            'slide-out-from-top animate-out': !t.visible,
+            'animate-in fade-in': t.visible,
+            'fade-out animate-out': !t.visible,
           }
         )}
       >
